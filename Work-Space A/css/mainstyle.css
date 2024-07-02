@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css for common */
+
+.padding{
+   padding-top: 50px;
+}
+.heading{
+    color: lightseagreen;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.mainheading{
+    font-family: system-ui;
+    font-size: 30px;
+}
+
+/* css for header */
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: monospace;
+}
+
+header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+
+/* css for banner */
+
+.carousel-caption{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.carousel-caption span{
+    margin: 0%;
+    color: #ffffff;
+    letter-spacing: 8px;
+}
+.carousel-item img{
+    filter: brightness(0.5);
+}
+.carousel-caption h1{
+    margin: 0%;
+    color: #ffffff;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.carousel-caption p{
+    font-family: serif;
+    font-size: 15px;
+    margin: 25px;
+    color: #ffffff;
+    word-spacing: 5px;
+    margin-bottom: 35px;
+}
+.carousel-caption a{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.carousel-caption a:hover{
+    background-color: #ffffff;
+    font-size: 20px;
+    transition: 0.5s;
+    color: black;
+}
+
+/* css for section2*/
+
+.subcont2 p{
+    font-size: 18px;
+    font-family: monospace;
+    line-height: 25px;
+}
+
+/* css for section3 */
+
+.subcont3 i{
+    font-size: 35px;
+    color: #46b2aa;
+}
+.subcont3 p{
+    font-family: cursive;
+    font-size: 15px;
+}
+.subcont3 h2{
+    margin: 25px 10px 10px 10px;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+/* css for section4 */
+
+.subcont4 h3{
+    font-family: system-ui;
+    font-size: 38px;
+    padding-right: 6rem;
+}
+.subcont4 p{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* css for section5 */
+
+.subcont5 .imagecont{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    display: none;
+} 
+.subcont5:hover .imagecont{
+    display: block;
+}
+.imagecont p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+.subcont5 img{
+    width: 100%;
+}
+
+
+.subcont6 .imagecont1{
+    position: absolute;
+    left: 0;
+    right: 0;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: blue;
+     display: none;
+}
+.subcont6:hover .imagecont1{
+    display: block;
+}
+.subcont6 img{
+    width: 100%;
+}
+.imagecont1 .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+.text span{
+    letter-spacing: 10px;
+    font-size: 15px;
+ }
+ .text p{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.text a{
+    color: white;
+    font-size: 15px;
+}
+.text i{
+    margin-left: 10px;
+}
+
+.subcont7 .imagecont1{
+    position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: blue;
+     display: none;
+}
+.subcont7:hover .imagecont1{
+    display: block;
+}
+.subcont7 img{
+    width: 100%;
+}
+
+
+.subcont8 .imagecont2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: yellowgreen;
+    display: none;
+}
+.subcont8:hover .imagecont2{
+    display: block;
+}
+.subcont8 img{
+    width: 100%;
+}
+.imagecont2 .text2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.text2 i{
+    font-size: 50px;
+}
+.text2 p{
+    margin-top: 10px;
+}
+.text2 h2{
+    margin-top: 15px;
+}
+
+/* css for section6 */
+
+.cont8{
+    text-align: center;
+}
+#owl1{
+    padding-top: 30px;
+}
+.owl-nav .owl-prev span{
+    font-size: 60px;
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    color: white;
+}
+.owl-nav .owl-next span{
+    font-size: 60px;
+    position: absolute;
+    top: 32%;
+    right: 2%;
+    color: white;
+}
+
+/* css for section7 */
+
+.cont10{
+    text-align: center;
+}
+.cont10 i{
+    font-size: 35px;
+    color: #46b2aa;
+    margin-bottom: 15px;
+}
+.cont10 p{
+    width: 65%;
+    margin: auto;
+    font-size: 20px;
+    font-family: system-ui;
+    word-spacing: 8px;
+}
+.cont10 h3{
+    margin: 30px 0px 15px;
+    font-family: sans-serif;
+}
+.cont10 span{
+    font-family: monospace;
+    font-size: 16px;
+    color: yellowgreen;
+}
+
+/* css for section8 */
+
+.subcont11 ul{
+    list-style: none;
+}
+.subcont10 img{
+    width: 100%;
+}
+.subcont11 ul li{
+    margin: 20px 0px;
+    font-family: system-ui;
+}
+.subcont11{
+    padding-top: 45px;
+}
+.subcont11 ul p{
+    font-family: system-ui;
+    margin-bottom: 35px;
+}
+.subcont11 ul a{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background: #46b2aa;
+    color: white;
+}
+.subcont11 ul a:hover{
+    color: #ffffff;
+    background-color: yellowgreen;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.subcont11 ul li i{
+    font-size: 18px;
+    color: #46b2aa;
+    margin-right: 10px;
+}
+
+/* css for section9 */
+
+#owl3{
+    padding: 50px 0 50px 0;
+}
+.cont12{
+    text-align: center;
+}
+.gall{
+    position: relative;
+}
+.gall .imagecont4{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    display: none;
+} 
+.gall:hover .imagecont4{
+    display: block;
+}
+.imagecont4 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* css for footer */
+
+.foot1 .fb{
+    font-size: 20px;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:yellowgreen;
+    margin-right: 15px;
+    color: black;
+}
+.foot1 .insta{
+    font-size: 20px;
+    border: 1px solid lightseagreen;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:lightseagreen;
+    margin-right: 15px;
+    color: black;
+}
+.foot1 .tw{
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:white;
+    margin-right: 15px;
+    color: black;
+}
+.foot1 p{
+    margin: 30px 0 10px;
+    font-family: system-ui;
+}
+.foot1 h4{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+form{
+    margin-top: 15px;
+    position: relative;
+}
+form input{
+    padding: 16px;
+    width: 90%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+form button{
+    left: 75%;
+    position: absolute;
+    border: none;
+    background: transparent;
+    color: white;
+    top: 18px;
+}
+
+
+.foot2 p{
+    margin: 30px 0;
+    font-family: system-ui;
+    word-spacing: 4px;
+    line-height: 22px;
+}
+.foot2 span{
+    font-family: sans-serif;
+}
+.foot2 span i{
+    margin-right: 15px;
+}
+
+
+.foot3 ul{
+    list-style: none;
+    margin: 30px 0;
+    font-family: system-ui;
+}
+.foot3 ul li{
+    padding: 7px 0;
+}
+.foot3 p{
+    margin-bottom: 10px;
+}
+.foot3 p i{
+    margin-right: 10px;
+}
+.foot3 a{
+    color: white;
+}
